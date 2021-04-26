@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true })) // for form data
 
 var mercadopago = require('mercadopago');
 mercadopago.configure({
-    access_token: 'APP_USR-6377878936994227-042601-462bbbae2961834d1060ba4252548d06-749531263'
+    access_token: 'APP_USR-2572771298846850-120119-a50dbddca35ac9b7e15118d47b111b5a-681067803'
 });
  
 app.engine('handlebars', exphbs());
