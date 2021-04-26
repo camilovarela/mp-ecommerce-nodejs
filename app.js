@@ -33,8 +33,6 @@ app.post('/complete', function (req, res) {
     var price = req.body.price;
     var unit = req.body.unit;
 
-    console.log(title + " " + price + " " + unit);
-
     var preference = {
         items: [
             {
@@ -80,7 +78,7 @@ app.post('/complete', function (req, res) {
         },
         notification_url: 'https://camilovarela-mp-commerce.herokuapp.com/callback',
         statement_descriptor: 'MINEGOCIO',
-        external_reference: 'ing.camilovarela@gmail.com'
+        external_reference: 'camilo.varela@mercadolibre.com.co'
     };
 
     preference.items[0].title = title;
