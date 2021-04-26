@@ -60,9 +60,9 @@ app.post('/complete', function (req, res) {
             }
         },
         back_urls: {
-            success: 'https://www.success.com',
-            failure: 'http://www.failure.com',
-            pending: 'http://www.pending.com'
+            success: 'https://camilovarela-mp-commerce.herokuapp.com/',
+            failure: 'https://camilovarela-mp-commerce.herokuapp.com/',
+            pending: 'https://camilovarela-mp-commerce.herokuapp.com/'
         },
         auto_return: 'approved',
         payment_methods: {
