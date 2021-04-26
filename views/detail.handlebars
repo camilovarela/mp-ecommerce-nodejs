@@ -67,6 +67,7 @@
                             </div>
 
                         </div>
+                        <form action="/complete" method="POST">
                         <div class="as-producttile-info" style="float:left;min-height: 168px;">
                             <div class="as-producttile-titlepricewraper" style="min-height: 128px;">
                                 <div class="as-producttile-title">
@@ -84,8 +85,14 @@
                                     {{ unit }}
                                 </h3>
                             </div>
+                            <input type="hidden" name="img" value="./assets/motorola-moto-g4-3.jpg">
+                            <input type="hidden" name="title" value="{{ title }}">
+                            <input type="hidden" name="price" value="{{ price }}">
+                            <input type="hidden" name="unit" value="{{ unit }}">
+                            
                             <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
