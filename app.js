@@ -99,6 +99,7 @@ app.post('/complete', function (req, res) {
 
 app.post('/callback', function (req, res) {
     console.log(req.body);
+    res.sendStatus(200);
 });
 
 app.listen(port);
